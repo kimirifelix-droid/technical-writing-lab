@@ -1,0 +1,79 @@
+﻿# Python.gitignore - common ignore patterns for Python projects
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+build/
+dist/
+pip-wheel-metadata/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+env/
+.envrc
+instance/
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+.dist-info/
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local virtual environment
+.env/
+.venv/
+venv/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
