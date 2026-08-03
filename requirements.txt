@@ -1,0 +1,4 @@
+﻿# Root requirements file for the repository.
+# Use this to install the project's Python dependencies.
+# It references the PythonLab requirements used for running tests.
+-r PythonLab/requirements.txt
